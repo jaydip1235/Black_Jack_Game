@@ -51,7 +51,7 @@ class Deck:
 
 # hands means no of cards  you are holding
 class Hand:
-    # initially you dont have any cards so your total value is also 0 and no of aces is also 0
+   
     def __init__(self):
         self.cards = []
         self.value = 0
